@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vehicle & User Form</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Vehicle Form</h1>
+    <form id="vehicleForm">
+      <input type="text" id="vehicleName" placeholder="Vehicle Name" required />
+      <input type="number" id="price" placeholder="Price" required />
+      <input type="text" id="image" placeholder="Image URL" required />
+      <textarea id="desc" placeholder="Description" required></textarea>
+      <input type="text" id="brand" placeholder="Brand" required />
+      <button type="submit">Submit Vehicle</button>
+    </form>
+
+    <h1>User Form</h1>
+    <form id="userForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="number" id="age" placeholder="Age" required />
+      <button type="submit">Submit User</button>
+    </form>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
